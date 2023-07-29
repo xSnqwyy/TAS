@@ -44,5 +44,5 @@ TAS.TextSize = 14
 UICorner_2.Parent = TAS
 
 TAS.MouseButton1Down:connect(function()
-	require(10844579779)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xSnqwyy/TAS/main/TAS.lua"))()
 end)
