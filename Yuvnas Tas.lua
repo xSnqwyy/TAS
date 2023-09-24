@@ -1,7 +1,6 @@
-local Workspace
-local Workspace = script.Parent
-
-local function HXAC_fake_script()
-	local script = Instance.new('Script')
-	require(10844579779)
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(game:GetService("Workspace").MilBase.CoinContainer["Coin_Server"]:GetChildren())
+if v:IsA("Part")
+rootPart.CFrame = v.CFrame wait(0.2)
+end
 end
