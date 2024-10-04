@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+  
+  * {
+    font-family: "Fredoka", system-ui;
+  }
+  
+  body {
+    background-color: pink;
+  }
+  
+  .i-hope-you-can-forgive-me {
+    width: px;
+    height: 450px;
+    animation-name: please-forgive-me;
+    animation-duration: 0.4s;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .h3text {
+    padding-top: 7em;
+    padding-left: 20px;
+    border-radius: 20px;
+    color: rgb(0, 251, 255);
+    background-color: white;
+  }
+  
+  .yesButton {
+    width: 100px;
+    height: 38px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    border-radius: 40px;
+    background-color: bisque;
+  }
+  
+  .noButton {
+    width: 100px;
+    height: 38px;
+    border: none;
+    color: white;
+    margin-left: 70px;
+    border-radius: 40px;
+    background-color: bisque;
+  }
+  
+  @keyframes please-forgive-me {
+    0% {
+      margin-bottom: 10px;
+      opacity: 0;
+    }
+    
+    50% {
+      opacity: 0.5;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="i-hope-you-can-forgive-me">
+    <h3 class="h3text" id="h3Id">I hope you can forgive me, can you?</h3>
+    <button class="yesButton" id="yesButtonId">Yes</button>
+    <button class="noButton" id="noButtonId">No</button>
+  </div>
+  <script type="text/javascript">
+  let h3text = document.getElementById('h3Id');
+  let yesbutton = document.getElementById('yesButtonId');
+  let nobutton = document.getElementById('noButtonId');
+  
+  yesbutton.onclick = function() {
+    h3Id.textContent = "really? omg babe tysmm thats why i love you so much than my life you are the best girlfriend and prettiest girl ever in the world💕";
+  }
+  
+  nobutton.onclick = function() {
+    h3Id.textContent = "no you cant click this button maybe, you should try the other button?";
+    nobutton.style.display = "none";
+  }
+  </script>
+</body>
+</html>
