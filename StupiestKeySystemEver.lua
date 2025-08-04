@@ -31,7 +31,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.0533333346, 0, 0.0367346928, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 50)
 TextLabel.Font = Enum.Font.LuckiestGuy
-TextLabel.Text = "Key System"
+TextLabel.Text = "Stupiest Key System Ever"
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 24
 
