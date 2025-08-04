@@ -10,7 +10,7 @@ local hum = char:FindFirstChild("Humanoid")
 
 for _, player in ipairs(whitelist) do
   if plr.Name == player then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xSnqwyy/TAS/refs/heads/main/StupiestKeySystemEver.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xSnqwyy/TAS/main/StupiestKeySystemEver.lua"))()
   else
     error("you're not in white list")
   end
