@@ -1,4 +1,4 @@
-
+print("KEY SYSTEM RUNNING SUCCESSFULLY")
 -- Instances
 
 local ScreenGui = Instance.new("ScreenGui")
