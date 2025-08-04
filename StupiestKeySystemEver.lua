@@ -64,6 +64,6 @@ Enter.MouseButton1Click:Connect(function()
 	if KeyBox.Text == "BESTSCRIPT" then
 		Frame.Visible = false
 		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/xSnqwyy/TAS/main/TAS.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xSnqwyy/TAS/main/R6Animation.lua"))()
 	end
 end)
